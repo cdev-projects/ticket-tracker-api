@@ -73,13 +73,13 @@ First, download this repository to your local machine and open the solution with
 
 Next, make sure that the `TicketTracker.Api` project is set as your startup project and then select `IIS Express` as your runtime server host.
 
-![](public/images/startup.jpg)
+![](Images/startup.JPG)
 
 From here, open your package manager console within Visual Studios under `View > Other Windows > Package Manager Console`.
 
 Within the package manager console, set the default project to `TicketTracker.Repositories` since this is where the DB Context resides and run the command `Update-Database`.
 
-![](public/images/package-manager.jpg)
+![](Images/package-manager.JPG)
 
 This command will run the migrations & data seeding required to construct the database tables and populate seed data for the first time.
 
@@ -87,8 +87,7 @@ Once the command completes, the database should be configured and the API should
 
 Clicking `IIS Express` should open a screen that displays a `Swagger` API with all of the endpoints shown similar to the image below.
 
-![](public/images/main.jpg)
-
+![](Images/main.JPG)
 # Endpoints
 
 Within this API, there are endpoints that support the functionality outlined in the `Context` section at the top.
