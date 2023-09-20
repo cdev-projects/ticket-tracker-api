@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketTracker.Api", "TicketTracker.Api\TicketTracker.Api.csproj", "{81D9921D-FC48-4CEB-9AA4-065BBDF5B440}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketTracker.Application", "TicketTracker.Application\TicketTracker.Application.csproj", "{ABF25FFB-554D-41F6-AB90-168CD1A60A18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketTracker.Repositories", "TicketTracker.Repositories\TicketTracker.Repositories.csproj", "{D8B9DB18-8472-481F-BA03-E8BA97A44D99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketTracker.Domain", "TicketTracker.Domain\TicketTracker.Domain.csproj", "{111D8235-468D-48FE-A8E8-D909EA210BE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54E08A7C-FE3A-4400-8A22-CA592CF379D3}"
+	ProjectSection(SolutionItems) = preProject
+		Images\main.JPG = Images\main.JPG
+		Images\package-manager.JPG = Images\package-manager.JPG
+		README.md = README.md
+		Images\startup.JPG = Images\startup.JPG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81D9921D-FC48-4CEB-9AA4-065BBDF5B440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D9921D-FC48-4CEB-9AA4-065BBDF5B440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D9921D-FC48-4CEB-9AA4-065BBDF5B440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D9921D-FC48-4CEB-9AA4-065BBDF5B440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF25FFB-554D-41F6-AB90-168CD1A60A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF25FFB-554D-41F6-AB90-168CD1A60A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF25FFB-554D-41F6-AB90-168CD1A60A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF25FFB-554D-41F6-AB90-168CD1A60A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B9DB18-8472-481F-BA03-E8BA97A44D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B9DB18-8472-481F-BA03-E8BA97A44D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B9DB18-8472-481F-BA03-E8BA97A44D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B9DB18-8472-481F-BA03-E8BA97A44D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111D8235-468D-48FE-A8E8-D909EA210BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111D8235-468D-48FE-A8E8-D909EA210BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111D8235-468D-48FE-A8E8-D909EA210BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111D8235-468D-48FE-A8E8-D909EA210BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB4F677D-E69E-446D-AB95-B86AA83C064E}
+	EndGlobalSection
+EndGlobal
